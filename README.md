@@ -1,12 +1,6 @@
 <div align="center">
   
-```
-  _____     __   __   __       __                   __  
- / ___/__  / /  / /  / /__ ___/ /__ ___ ____  ___  / /__
-/ (_ / _ \/ _ \/ _ \/ / -_) _  / -_) _ `/ _ \/ _ \/  '_/
-\___/\___/_.__/_.__/_/\__/\_,_/\__/\_, /\___/\___/_/\_\ 
-                                  /___/                                                                                                                 
-  ```
+# 🔑 Gobbledegook 🔒
 </div>
 
 Gobbledegook is a proof of concept (PoC) hotplug attack payload resistant to post-incident disk-forensics targeting Linux systems.
