@@ -29,7 +29,7 @@ Gobbledegook utilizes a two step payload encryption method implemented via `open
 Disk-forensic operational security considerations when attempting to compromise Linux machines via hotplug attack.
 
 ## Considerations
-While steps in this PoC carry an emphasis on anti disk-forensics, it should be noted that *it is **NOT** all encompassing* regarding total forensic circumvention. Custom logging, EDR systems, network monitoring systems, RAM/process monitoring, recovering data from non re-allocated memory space, etc, may circumvent anti-forensic efforts. Additionally, while the *key itself* is deisgned to be dervied in memory at runtime only, key derivation (`"$(lsusb -v -d 0x046D:0xC05A 2>/dev/null | grep -E "bmAttri|MaxPower|wMaxPacket"`) must remain in clear text so that it may be interpreted by the shell.
+While steps in this PoC carry an emphasis on anti disk-forensics, it should be noted that *it is **NOT** all encompassing* regarding total forensic circumvention. EDR systems, network monitoring systems, RAM/process monitoring, recovering data from non re-allocated memory space, etc, may circumvent anti-forensic efforts. Additionally, while the *key itself* is deisgned to be dervied in memory at runtime only, key derivation (`"$(lsusb -v -d 0x046D:0xC05A 2>/dev/null | grep -E "bmAttri|MaxPower|wMaxPacket"`) must remain in clear text so that it may be interpreted by the shell.
 
 ## Workflow
 ### Gathering Keys
