@@ -3,7 +3,7 @@
 # 🔑 Gobbledegook 🔒
 </div>
 
-Gobbledegook is a proof of concept (PoC) hotplug attack payload with measures to reduce on-disk payload artifacts targeting Linux systems. Utilizing environmental keying against the hotplug itself allows key derivation for encrypted payloads to be generated at runtime in memory.
+Gobbledegook is a proof of concept (PoC) hotplug attack payload with measures to reduce on-disk payload artifacts targeting Linux systems. This is partially accomplished by utilizing environmental keying against the hotplug itself allowing key derivation for encrypted payloads to be generated at runtime in memory.
 
 **Lab Environment:**
 - Ubuntu Server 24.04
